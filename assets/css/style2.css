@@ -1,0 +1,57 @@
+.jumbotron hr {
+	display: block;
+	height: 2px;
+	margin: 1em 0;
+	padding: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.jumbotron {
+	background-color: transparent;
+	height: 100vh;
+	padding-top: 25vh;
+	padding-bottom: 25vh;
+	margin-bottom: 0; 
+	/*to remove vertical scroll*/
+}
+
+.jumbotron h1 {
+	color: #e9e9e9;
+	letter-spacing: 3px;
+}
+
+.jumbotron h2 {
+	color: grey;
+	letter-spacing: 3px;
+}
+
+#jumbotron-landing {
+	background-color: #141414;
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+#landing-button {
+	font-weight: 700;
+}
+
+#landing-button:hover {
+	color: #141414;
+	font-weight: 700;
+}
+
+/*Tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+
+}
