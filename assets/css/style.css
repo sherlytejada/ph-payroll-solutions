@@ -1,4 +1,5 @@
-.jumbotron hr {
+/*style2.css*/
+.jumbotron-index hr {
 	display: block;
 	height: 2px;
 	margin: 1em 0;
@@ -11,7 +12,7 @@
 	box-sizing: border-box;
 }
 
-.jumbotron {
+.jumbotron-index {
 	background-color: transparent;
 	height: 100vh;
 	padding-top: 25vh;
@@ -20,22 +21,26 @@
 	/*to remove vertical scroll*/
 }
 
-.jumbotron h1 {
-	color: #2f190a;
-	letter-spacing: 3px;
-	padding-top: 20vh;
-	letter-spacing: 5px;
+.container-fluid {
+	background-color: rgba(265,265,265,0.5);
+	margin: auto;
+	opacity: 50px;
 }
 
-.jumbotron h2 {
+
+.jumbotron-index h1 {
 	color: black;
 	letter-spacing: 3px;
 }
 
+.jumbotron-index h2 {
+	color: #150425;
+	letter-spacing: 3px;
+	font-style: italic;
+}
+
 #jumbotron-landing {
-	background-image: url(../images/bg1.jpeg);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background-color: grey;
 	width: 100%;
 	height: 100vh;
 	margin: 0 auto;
@@ -43,35 +48,221 @@
 
 #landing-button {
 	font-weight: 700;
-	background: rgba(34, 86, 129, 0.3);
-	color: yellow;
-
-
-}
-
-#landing-button:hover {
-/*	color: #141414;*/
-	font-weight: 700;
-}
-
-.container-fluid {
-	background-color: rgba(175,175,175,0.5);
-}
-
-.link a {
 	text-decoration: none;
 }
 
-.card-body {
-	height: 150px;
+#landing-button:hover {
+	color: #141414;
+	font-weight: 700;
+
 }
 
-.card-text {
-	font-size: 10px;
+/*end of style2.css*/
+
+/*style3.css*/
+.slider {
+	height: 600px;
 }
+
+/*style4.css*/
+
+iframe {
+	width: 100%;
+	height: 100%;
+	
+}
+
+#contact {
+	padding: 2em 0;
+	height: fit-content;
+}
+
+/*style5.css*/
+
+
+#landing-about {
+	font-family: 'Montserrat', sans-serif;
+	color: blue;
+	font-size: 5em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+}
+
+.jumbotron-index {
+	background-image: url(../images/phpayroll.jpeg);
+	height: 100vh;
+	border-radius: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fadeIn {
+	animation-duration: 5s;
+}
+
+
+#why-clients {
+	height: 100%;
+	background-color: rgba(234, 237, 237,0.7);
+
+}
+
+.about-tags {
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+#our-success {
+	height: 100%;
+	color: #141414;
+	background-color: rgba(133, 193, 233, 0.2);
+}
+
+#actions {
+	background-color: rgba(234, 250, 241,0.2);
+}
+
+
+
+.img-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100rem;
+	height: 30rem;
+}
+
+.jumbotron-about {
+	background-image: url(../images/1.jpeg);
+	margin: auto;
+	opacity: 50px;
+	height: 70vh;
+
+}
+ss
+.card-home {
+ 	width: 18rem;
+}
+
+.card-img-top-home {
+	border-radius: 50px;
+	width: 5rem;
+	height: 5rem;
+	text-align: center;`
+}
+
+.text-uppercase, .fa-home {
+	color: white;
+}
+
+.list-unstyled {
+	color: yellow;
+}
+
+#contact-team {
+	float: left;
+}
+
+.form-group {
+	box-sizing: 50px;
+}
+
+ /*Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.home-icon {
+	height:150px;
+	width: 150px;
+
+}
+
+
+.navbar-logo>img {
+	height: 100px;
+	width: auto;
+	box-sizing: 50px;
+
+}
+
+
+.page-footer {
+	background-color: #EBEDEF;
+}
+
+.text-uppercase {
+	color: black;
+}
+
+#contact-team {
+	background-color: rgba(0, 204, 255,0.2);
+}
+
+.container-fluid-team {
+	background-image: url(../images/bg4.jpeg);
+}
+
+.container-fluid-services {
+	background-image: url(../images/bg2.jpeg);
+}
+
+#contact {
+	background-color: rgba(0, 153, 255,0.2)
+}
+/* Style all font awesome icons 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+    background: #55ACEE;
+    color: white;
+}
+
+
+.carousel-home {
+	height: 100vh;
+	border: 50px;
+}
+
+.carousel-caption {
+	background-color: rgba(266,266,266,0.7);
+	color: black;
+}
+
+
+/*end of style5.css*/
 
 /*Tablet*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+	 	.container-fluid-team, .row, .container-fluid-contact, .navbar-dark-lg {
+    			padding:0px;
+    			margin-bottom: -10px;
+
+ 		 }
 
 }
 
